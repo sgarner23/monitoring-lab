@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+html {
+  background: url(https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFuZHNjYXBlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+button {
+  
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px 1px #444;
+  border: none;
+  background-color: #007591;
+  color: #EFB19E;
+  font-size: x-large;
+  position: relative;
+  bottom: 50px;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #EFB19E;
+  color: #007591;
+}
+
+.response {
+  border: 2px solid lime;
+  height: 300px;
+  width: 650px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 150px
+
+}
+

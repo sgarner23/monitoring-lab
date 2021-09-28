@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "rollbar": "^2.24.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "monitoring-lab",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
