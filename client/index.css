@@ -46,7 +46,10 @@ button:hover {
 }
 
 .response {
-  border: 2px solid lime;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
   height: 300px;
   width: 650px;
   margin: 0 auto;
