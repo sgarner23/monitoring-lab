@@ -4,7 +4,7 @@ gsap.from(".btn", {rotation: 90,
   const btn = document.querySelector('.btn')
 
   btn.addEventListener('click', () =>{
-    axios.get('/api/nice-things').then((req, res) => {
+    axios.get('/api/nice-things').then((res) => {
       console.log(res.data)
     })
   })
