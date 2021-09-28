@@ -51,7 +51,8 @@ button:hover {
   width: 650px;
   margin: 0 auto;
   position: relative;
-  bottom: 150px
+  bottom: 150px;
+  text-align: center;
 
 }
 
